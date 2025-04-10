@@ -3,10 +3,10 @@
 # Two-Stage Production Scheduling Using Johnson's Rule
 
 ## Overview
-This project implements a **simple greedy method** to optimally solve the two-stage production (flow) scheduling problem using **Johnson's Rule**. Johnson's Rule is a classic algorithm for minimizing the makespan of jobs across two stages in a production flow. It sorts jobs based on their processing times to determine an optimal sequence for execution.
+This project implements a simple greedy method to optimally solve the two-stage production (flow) scheduling problem using Johnson's Rule. Johnson's Rule is a classic algorithm for minimizing the time span of jobs across two stages in a production flow. It sorts jobs based on their processing times to determine an optimal sequence for execution.
 
 ## Features
-- **Dynamic Memory Allocation:** Ensures flexibility to handle varying numbers of input jobs.
+- **Dynamic Memory Allocation:** Ensures flexibility to handle various input jobs.
 - **Quicksort Algorithm:** Efficiently sorts jobs based on their minimum processing times.
 - **Makespan Calculation:** Computes the total completion time of jobs while detecting idle gaps in the process.
 - **Input File Support:** Reads input for wash times and dry times from a user-specified file.
@@ -30,5 +30,3 @@ This project implements a **simple greedy method** to optimally solve the two-st
 The input file must follow this structure:
 - The first line contains the number of jobs (`n`).
 - The subsequent lines contain two integers per job: wash time and dry time.
-
-**Example Input File:**
